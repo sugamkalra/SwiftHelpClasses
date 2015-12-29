@@ -15,6 +15,8 @@
 		15015B971C32595B00EDDB2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15015B951C32595B00EDDB2A /* LaunchScreen.storyboard */; };
 		15015BA21C32595B00EDDB2A /* SwiftyHelpClassesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15015BA11C32595B00EDDB2A /* SwiftyHelpClassesTests.swift */; };
 		15015BAD1C32595B00EDDB2A /* SwiftyHelpClassesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15015BAC1C32595B00EDDB2A /* SwiftyHelpClassesUITests.swift */; };
+		15015BBC1C32596F00EDDB2A /* Help.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15015BBB1C32596F00EDDB2A /* Help.swift */; };
+		15015BBE1C32598E00EDDB2A /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15015BBD1C32598E00EDDB2A /* SwiftyJSON.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		15015BA81C32595B00EDDB2A /* SwiftyHelpClassesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftyHelpClassesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		15015BAC1C32595B00EDDB2A /* SwiftyHelpClassesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyHelpClassesUITests.swift; sourceTree = "<group>"; };
 		15015BAE1C32595B00EDDB2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15015BBB1C32596F00EDDB2A /* Help.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Help.swift; sourceTree = "<group>"; };
+		15015BBD1C32598E00EDDB2A /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,7 @@
 		15015B881C32595B00EDDB2A /* SwiftyHelpClasses */ = {
 			isa = PBXGroup;
 			children = (
+				15015BBA1C32596000EDDB2A /* Help Classes */,
 				15015B891C32595B00EDDB2A /* AppDelegate.swift */,
 				15015B8B1C32595B00EDDB2A /* ViewController.swift */,
 				15015B8D1C32595B00EDDB2A /* Main.storyboard */,
@@ -126,6 +131,15 @@
 				15015BAE1C32595B00EDDB2A /* Info.plist */,
 			);
 			path = SwiftyHelpClassesUITests;
+			sourceTree = "<group>";
+		};
+		15015BBA1C32596000EDDB2A /* Help Classes */ = {
+			isa = PBXGroup;
+			children = (
+				15015BBD1C32598E00EDDB2A /* SwiftyJSON.swift */,
+				15015BBB1C32596F00EDDB2A /* Help.swift */,
+			);
+			name = "Help Classes";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,6 +275,8 @@
 			files = (
 				15015B8C1C32595B00EDDB2A /* ViewController.swift in Sources */,
 				15015B8A1C32595B00EDDB2A /* AppDelegate.swift in Sources */,
+				15015BBC1C32596F00EDDB2A /* Help.swift in Sources */,
+				15015BBE1C32598E00EDDB2A /* SwiftyJSON.swift in Sources */,
 				15015B921C32595B00EDDB2A /* SwiftyHelpClasses.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
